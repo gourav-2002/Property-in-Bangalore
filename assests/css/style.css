@@ -1,0 +1,248 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+section{
+    padding-top:50px
+}
+
+
+.set-form-input{
+    border: none;
+    height: calc(2.3em + 0.75rem + 0px);
+    width: 100%;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+
+.set-form{
+    position: relative;
+}
+
+.banner-form{
+    border: 5px solid blue;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    right: 130px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-form legend{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.banner-form legend span{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.banner-form .form-head{
+    padding: 20px;
+    background-color: blue;
+    color: white;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.offers{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+
+.offers img{
+    display: block;
+    width: 100%;
+}
+
+ .main-title span{
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    background: #333;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+
+.main-title span:before {
+    content: "";
+    height: 2px;
+    width: 240px;
+    position: absolute;
+    bottom: -2px;
+    background: #333;
+    -webkit-transform: translate(-50%, 0px);
+    transform: translate(-50%, 0px);
+    left: 50%;
+}
+
+.main-title h2 {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    color: #000;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: 600;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-body{
+    background-color: rgb(10, 10, 109);
+    height: 200px;
+    border-radius:0 0 0 20px;
+ 
+}
+
+.card-img{
+    height:250px
+}
+
+.card-content{
+    bottom:0;
+    right: 0;
+    padding: 20px;
+    position: absolute;
+    background-color: white;
+}
+
+.pgrid-type span img {
+    width: 26px;
+    height: 26px;
+    margin: 0px 5px 0px 0px;
+    top: -4px;
+    position: relative;
+}
+
+.card-content h3 {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Argesta Display";
+    margin-bottom: 2px;
+}
+
+.card-content .bottom-specs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.card-content .price{
+    text-align: center;
+    color: #07518c;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+}
+
+.location {
+    width: 100%;
+    color: #888888;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.footer-section {
+    background: #f3f3f3;
+    padding: 20px 0 0;
+    margin: 30px 0 0;
+}
+
+.footer-section .term_sec a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer-section .fixed-social-icon {
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+    z-index: 1;
+}
+
+.footer-section .fixed-social-icon ul li img {
+    width: 40px;
+    display: block;
+    padding: 5px;
+}
+
+.footer-section .fixed-social-icon ul {
+    margin-bottom: 0;
+}
+
+.footer-section .fixed-social-icon ul li {
+    background: #000;
+    margin-bottom: 5px;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.footer-section .fixed-social-icon ul li:first-child {
+    background-color: #2a72c5;
+}
+
+.footer-section .fixed-social-icon ul li:first-child {
+    background-color: #2a72c5;
+}
+
+.footer-section .fixed-social-icon ul li:last-child {
+    background: #40ca3c;
+}
+
+.footer-section .footer-text-content {
+    text-align: center;
+    border-top: 1px solid #6c757d;
+    padding: 10px;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.modal-body .promises{
+    text-align: center;
+}
+
+.modal-footer{
+    background-color: #07518c;
+    color: white;
+}
